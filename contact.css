@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif; 
+}
+.con::after{
+content: " ";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-image: url('img1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+opacity:0.6;
+z-index: -2;
+}
+
+.contant{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.ref{
+text-align: center;
+font-size: 40px;
+    font-weight: 800;
+}
+
+.ref a{
+    color: black;
+    text-decoration: none;
+}
+
+.ref a:hover{
+    color: blue;
+}

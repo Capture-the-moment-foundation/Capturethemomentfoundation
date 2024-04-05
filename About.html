@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us </title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <style>
+    *{         
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ font-family: "Arial", sans-serif;
+}
+
+@media screen and (max-width: 800px){
+    *{position: relative;}
+}
+
+        header{
+            background-color: #f5ecec;
+    color: #302f2f;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index:1;
+        }
+
+        .hd{
+            font-size: 32px;
+            font-style:none;
+    font-weight: bold;
+    text-transform: uppercase;
+   position: relative; left: 45%;
+    }
+        
+    .hd h3{
+        color: #3f3e3e;
+    text-decoration: none;
+  
+}
+.par::before{
+    content: " ";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-image: url('img1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+opacity: 0.6;
+z-index: -1;
+}
+
+ p{
+  position: relative;
+padding: 0px;
+font-weight: 800;
+}
+
+footer{
+    background-color: #efe9e9;
+    align-items: center;
+  position: relative;
+  height: 50%;
+  
+}
+
+@media screen and (min-width: 800px){
+    footer{position: relative;
+        top: 120px;
+    }
+}
+
+footer ul{
+    margin-left: 25px;
+    list-style: none;
+    position: relative; left: 45%;
+    padding: 20px;
+
+}
+
+footer ul li a{
+    color: #333131;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: burlywood;
+}
+    </style>
+
+    <body>
+        
+        <header>
+        
+            <div class="hd">
+                <h3> About Us </h3>
+            </div>
+        </header>
+
+        <div class="par">
+        <p>
+       <b> Welcome to "Chronicles of Love and Time"</b><br><br><br>
+
+       <b>About Us:</b><br>
+
+
+<b>Our Sory:</b>
+
+
+<b>Our Mission:</b><br><br>
+
+
+</p>  
+        </div>
+
+        <footer>
+            <ul>
+                <li><a href="index.html" > Home </a></li><br>
+                <li><a href="contact.html" > Contact </a></li><br>
+                <li><a href="support.html" > Support Us </a></li><br>
+            </ul>
+        </footer>
+    </body>
+
+</html>
