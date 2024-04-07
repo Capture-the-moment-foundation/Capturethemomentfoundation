@@ -126,6 +126,10 @@ nav ul li a:hover{
     margin-bottom: 30px;
 }
 
+.hero-content h2{
+    color: #f9f9f9;
+}
+
 .hero-content button{
     background-color: rgb(59, 59, 248);
     height: 50px;
