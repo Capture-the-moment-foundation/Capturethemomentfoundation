@@ -124,9 +124,10 @@
 
 @media (max-width:768px){
     .popup-image img{
-        width: 75%;
+        width: 40%;
+        height: 50%;
         position: absolute;
-        left:15%;
+        left:12%;
     }
 }
 
@@ -143,6 +144,13 @@
     color: rgb(253, 254, 251);
     cursor: pointer;
     z-index: 1;
+}
+
+@media (max-width:768px){
+    .popup-image span{
+        position: absolute;
+        right:12%;
+    }
 }
 
 footer{
