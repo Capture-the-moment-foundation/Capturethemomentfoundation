@@ -51,6 +51,11 @@
                  <p> GH₵ 30.00</p>
             </div>
 
+             <div class="popup-image">
+                <span>&times;</span>
+                <img src="/Users/amoahlordsakyi/Desktop/1st Programm/Derrick/img/img3.jpg" alt="">
+           </div>
+                    
                 </div>
 
 
@@ -67,6 +72,19 @@
             
            </footer>
 
+         <script>
+            document.querySelectorAll('.products img').forEach(product => {
+                product.onclick = () => {
+                    document.querySelector('.popup-image').style.display = 'block'
+                    document.querySelector('.popup-image img').src = product.getAttribute('src')
+                }
+            });
+
+            document.querySelector('.popup-image span').onclick = () => {
+                document.querySelector('.popup-image').style.display = 'none'
+            }
+           </script>
+        
     </body>
 
 </html>
