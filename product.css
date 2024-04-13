@@ -34,7 +34,7 @@
 
    @media screen and (max-width: 800px){
     .hd h3{position: relative;
-          right:90px;}
+          right:80px;}
 }
    
    .hero{
@@ -124,10 +124,11 @@
 
 @media (max-width:768px){
     .popup-image img{
-        width: 55%;
+        width: 65%;
         height: 50%;
         position: absolute;
         left:14%;
+         top: 30%;
     }
 }
 
