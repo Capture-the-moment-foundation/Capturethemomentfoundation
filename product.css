@@ -56,12 +56,11 @@
 
 .main-content h2{
     margin-top: 25px;
-    grid-template-rows: repeat(2, 1fr);
 }
 
 .products{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     margin-top: 40px;
 }
@@ -123,7 +122,7 @@
     border-radius: 5px;
 }
 
-media (max-width:768px){
+@media (max-width:768px){
     .popup-image img{
         width: 75%;
         position: absolute;
@@ -149,13 +148,14 @@ media (max-width:768px){
 footer{
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 footer ul{
     margin-left: 25px;
     list-style: none;
     position: relative; left: 45%;
-    padding: 15px;
+    padding: 20px;
 
 }
 
@@ -167,6 +167,7 @@ footer ul{
 footer ul li a{
     color: #222224;
     text-decoration: none;
+    position: relative;
 }
 
 footer ul li a:hover{
