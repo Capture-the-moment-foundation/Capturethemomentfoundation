@@ -178,7 +178,7 @@ nav ul li a:hover{
 
 @media (max-width:768px){
     .front img:hover{
-        transform: scale(2);
+        transform: scale(1.5);
     }
 }
 
