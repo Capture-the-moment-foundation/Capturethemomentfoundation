@@ -54,7 +54,12 @@
             <img src="img18.jpg" alt=""> <br>
             <p>Secretary of CTMF: Miss Owusu Benedicta</p>
         </div>
-        
+
+           <div class="popup-image">
+            <span>&times;</span>
+            <img src="/Volumes/NO NAME/Derrick/img/img3.jpg" alt="">
+       </div>
+             
     </div>
             <a href="support.html"> <button type="submit">Donate</button> </a>
         </div> <br>
@@ -96,6 +101,19 @@
         } );
 
     </script>
+
+    <script>
+        document.querySelectorAll('.hero-content img').forEach(product => {
+            product.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block'
+                document.querySelector('.popup-image img').src = product.getAttribute('src')
+            }
+        });
+
+        document.querySelector('.popup-image').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none'
+        }
+       </script>
 </body>
 
 </html>
