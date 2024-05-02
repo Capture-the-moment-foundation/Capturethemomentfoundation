@@ -14,7 +14,7 @@ background-color: #313030;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0;
     z-index: 100; 
 }    
@@ -106,8 +106,13 @@ nav ul li a:hover{
         width: 100%;
     }
 
+ nav ul{
+        display: block;
+    }
+
     nav ul li{
         margin: 4px;
+        margin-top: 25px;
         display: none;
         border-radius: solid 10px;
     } 
